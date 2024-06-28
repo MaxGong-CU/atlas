@@ -1,78 +1,82 @@
 /* the following styles apply to both of our pages */
 
 body {
-    background-color: black;
-  }
-  #flashwarning{
-    color: white;
-    font-family: 'Arial', 'Dosis', serif;
-    font-size: 3em;
-    text-align: center;
-    margin: 0;
-    display: block;
-    position: absolute;
-    transform: translate(-50%,10%);
-    top: 0%;
-    left: 50%;
-  }
+  background-color: white;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  padding: 3em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 a {
+  color: mediumblue;
+}
+
+h1 a:hover {
+  font-weight: bold;
+}
+
+h1, footer {
+  background-color: cornflowerblue;
+  padding: 1em;
+  letter-spacing: .05em;
+
+}
+
+main {
+  background-color: white;
+
+}
+
+footer {
+  font-size: .8em;
+  text-align: center;
+}
+
+/* the body with id #index is only on our index.html page */
+body#index {
   
-  #helloworld{
-    color: white;
-    font-family: 'Impact', 'Dosis', serif;
-    font-style: Bold;
-    font-size: 15em;
-    letter-spacing: 4px;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-  }
+}
+
+#index main {
+  text-align: center;
+  font-size: 3em;
+}
+
+#date {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#welcome {
+  font-size: 2em;
   
-  
-  
-  
-  /* the body with id #index is only on our index.html page */
-  body
-  #index {
-    text-align: center;
-  }
-  
-  #index main {
-    padding: 4em;
-  }
-  
-  
-  
-  #date {
-    font-style: italic;
-    font-weight: bold;
-  }
-  
-  
-  
-  #status {
-    text-transform: uppercase;
-    font-size: 8em;
-  }
-  
-  /* the following rules are added for the resolution.html page but
-      they apply anywhere this css file is imported */
-  
-  nav {
-    padding: 1em; 
-    background: #ffffff;
-  }
-  
-  img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background-position: center;
-    margin: 0 auto;
-  
-  }
+}
+
+/* the following rules are added for the resolution.html page but
+    they apply anywhere this css file is imported */
+
+nav {
+  padding: 1em; 
+  background: #ffffff;
+}
+
+img {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+ab {
+  font-size:1.5em;
+  text-align:center;
+}
+
+
+#about main {
+  text-align: center;
+}
