@@ -1,4 +1,3 @@
-/* the following styles apply to both of our pages */
 
 body {
   background-color: white;
@@ -36,29 +35,6 @@ footer {
   font-size: .8em;
   text-align: center;
 }
-
-/* the body with id #index is only on our index.html page */
-body#index {
-  
-}
-
-#index main {
-  text-align: center;
-  font-size: 3em;
-}
-
-#date {
-  font-style: italic;
-  font-weight: bold;
-}
-
-#welcome {
-  font-size: 2em;
-  
-}
-
-/* the following rules are added for the resolution.html page but
-    they apply anywhere this css file is imported */
 
 nav {
   padding: 1em; 
