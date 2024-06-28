@@ -1,0 +1,78 @@
+/* the following styles apply to both of our pages */
+
+body {
+    background-color: black;
+  }
+  #flashwarning{
+    color: white;
+    font-family: 'Arial', 'Dosis', serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,10%);
+    top: 0%;
+    left: 50%;
+  }
+  
+  #helloworld{
+    color: white;
+    font-family: 'Impact', 'Dosis', serif;
+    font-style: Bold;
+    font-size: 15em;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  
+  
+  
+  
+  /* the body with id #index is only on our index.html page */
+  body
+  #index {
+    text-align: center;
+  }
+  
+  #index main {
+    padding: 4em;
+  }
+  
+  
+  
+  #date {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  
+  
+  #status {
+    text-transform: uppercase;
+    font-size: 8em;
+  }
+  
+  /* the following rules are added for the resolution.html page but
+      they apply anywhere this css file is imported */
+  
+  nav {
+    padding: 1em; 
+    background: #ffffff;
+  }
+  
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    margin: 0 auto;
+  
+  }
