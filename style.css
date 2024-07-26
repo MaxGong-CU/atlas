@@ -1,21 +1,22 @@
-:is(a, button, input, textarea, summary) {
+/* Define outline properties for focusable elements */
+a, button, input, textarea, summary {
     --outline-size: max(2px, 0.08em);
     --outline-style: solid;
     --outline-color: red;
 }
 
-:is(a, button, input, textarea, summary):focus-visible {
-    outline:
-      var(--outline-size)
-      var(--outline-style)
-      var(--outline-color);
+/* Apply focus-visible outline styles */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible {
+    outline: var(--outline-size) var(--outline-style) var(--outline-color);
     outline-offset: var(--outline-offset, var(--outline-size));
 }
 
+/* Style for elements with .new-link-color class */
 .new-link-color {
     color: #00828f;
 }
 
+/* Apply custom focus styles to elements with focus */
 :focus {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Box shadow with custom color */
